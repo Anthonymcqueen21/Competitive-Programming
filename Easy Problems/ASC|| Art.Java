@@ -1,10 +1,7 @@
 import java.util.*;
 import java.io.*;
 import java.math.*;
-
-
 class Solution {
-    
     public static String[] initRows(Scanner in, int size) {
         String[] rows = new String[size];
     for (int i = 0; i < size; i++) {
@@ -12,7 +9,6 @@ class Solution {
     }
             return rows;
     }
-    
     public static String[] initAnswer(Scanner in, int size) {
         String[] answer = new String[size];
     for (int i = 0; i < size; i++) {
@@ -20,7 +16,6 @@ class Solution {
     }
            return answer;
     }
-    
     public static String formatAnswer(String[] answer, int size) {
         String result="";
         for( int i = 0;i < size; i++) {
