@@ -23,7 +23,6 @@ class Solution {
         }
         return result;
     }
-    
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         int L = in.nextInt();
@@ -44,7 +43,6 @@ class Solution {
                 answer[x] += rows[x].substring(pos,pos+L);
             }
         }
-        
         System.out.println(formatAnswer(answer,H));
     }
 }
