@@ -36,7 +36,6 @@ class Player
                   // General case
                   if (o1 != o2 && o3 != o4)
                            return true;
-
                   // Special Cases
                   // p1, q1 and p2 are colinear and p2 lies on segment p1q1
                   if (o1 == 0 && onSegment(p1, p2, q1)) return true;
