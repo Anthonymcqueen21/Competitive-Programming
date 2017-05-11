@@ -3,12 +3,9 @@
 #include <vector>
 #include <algorithm>
 #include <iomanip>
-
 using namespace std;
-
 int spaces = 0;
 bool newLine = true;
-
 void printSpaces(int spaces)
 {
     for (int i = 0; i < spaces; ++i)
