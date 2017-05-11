@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Solution {
 	private static int minLength = Integer.MAX_VALUE;
 
