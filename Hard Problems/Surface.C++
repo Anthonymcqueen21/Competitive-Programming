@@ -3,11 +3,8 @@
 #include <vector>
 #include <algorithm>
 #include <queue>
-
 using namespace std;
-
 vector<vector<int>> cache;
-
 int getLakeSize(const vector<vector<bool>>& grid, int x, int y)
 {
     if (cache[y][x] != 0)
