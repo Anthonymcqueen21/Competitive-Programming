@@ -5,9 +5,7 @@
 #include <cassert>
 #include <memory>
 #include <queue>
-
 using namespace std;
-
 struct Node
 {
     int id;
