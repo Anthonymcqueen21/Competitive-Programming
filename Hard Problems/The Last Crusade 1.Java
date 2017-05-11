@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
-
 class Player {
 
     static int W; // number of columns.
@@ -15,8 +14,7 @@ class Player {
     static final Direction LEFT = Direction.LEFT;
     static final Direction DOWN = Direction.DOWN;
     static final Direction RIGHT = Direction.RIGHT;
-
-    public static void main(String args[]) {
+public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
         Scanner in = new Scanner(System.in);
 
