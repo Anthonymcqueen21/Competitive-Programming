@@ -2,7 +2,6 @@
 #include <string>
 #include <vector>
 #include <cstdlib>
-
 class CGraph
 {
     class CNode
