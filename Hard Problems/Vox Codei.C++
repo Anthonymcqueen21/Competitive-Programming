@@ -4,9 +4,7 @@
 #include <algorithm>
 #include <list>
 #include <map>
-
 using namespace std;
-
 enum EType
 {
     ET_EMPTY = '.',
