@@ -7,7 +7,6 @@
 #include <set>
 #include <list>
 #include <cstdio>
-
 double get_number(std::string& s)
 {
     size_t p = s.find(',');
@@ -19,7 +18,6 @@ double get_number(std::string& s)
     sscanf(s.c_str(), "%f", &result);
     return result*M_PI/180;
 }
-
 double _distance(double lat1, double long1, double lat2, double long2)
 {
     double x = (long2 - long1)*cos((lat1 + lat2)/2);
