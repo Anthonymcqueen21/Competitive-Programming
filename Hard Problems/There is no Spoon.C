@@ -5,7 +5,6 @@
 /**
  * The machines are gaining ground. Time to show them what we're really made of...
  **/
-
 typedef struct link 
 {
  int X, Y, X1, Y1, How, IsGuess;
