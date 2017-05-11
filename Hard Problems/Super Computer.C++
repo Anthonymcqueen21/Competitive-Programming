@@ -1,16 +1,13 @@
 #include <iostream>
 #include <set>
 #include <list>
-
 typedef std::pair<int, int> node_t;
 typedef std::set<node_t> nodes_t;
-
 bool operator<(const node_t& a, const node_t& b)
 {
     return a.first < b.first
         || (a.first == b.first && a.second < b.second);
 }
-
 int main()
 {
         int n;
