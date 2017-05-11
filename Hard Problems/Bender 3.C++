@@ -6,12 +6,8 @@
 #include <map>
 #include <string>
 #include <cmath>
-
 #include <math.h>
-
-
 typedef std::vector<double> values_t;
-
 double analyze(const std::vector<double>& values)
 {
     double sum = std::accumulate(values.begin(), values.end(), 0.0);
