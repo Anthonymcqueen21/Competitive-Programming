@@ -1,7 +1,6 @@
 import java.util.*;
 import java.io.*;
 import java.math.*;
-
 /** Class representing a couple of cartesian coordinates*/
 class Coords {
     int X, Y;
@@ -21,8 +20,6 @@ class Coords {
         return this.X == d.X && this.Y == d.Y;
     }
 }
-
-
 class Player {
 
     /** height of the labyrinth*/
