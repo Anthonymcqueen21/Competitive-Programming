@@ -2,20 +2,16 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-
 using namespace std;
-
 vector<string> lanes(4);
 std::string::size_type lastHole;
 std::string::size_type trackLength;
-
 struct State
 {
     unsigned int speed;
     unsigned int x;
     vector<unsigned int> y;
 };
-
 // Returns casualties and best move
 pair<unsigned int, std::string> decide(State state)
 {
