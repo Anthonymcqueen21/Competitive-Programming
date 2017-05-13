@@ -1,12 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-
-/**
- * CodinGame planet is being attacked by slimy insectoid aliens.
- * <---
- * Hint:To protect the planet, you can implement the pseudo-code provided in the statement, below the player.
- **/
 int main() {
     
     while(1) {
