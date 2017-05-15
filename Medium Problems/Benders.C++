@@ -4,9 +4,7 @@
 #include <list>
 #include <map>
 #include <set>
-
 #include <assert.h>
-
 using namespace std;
 
 class CField
