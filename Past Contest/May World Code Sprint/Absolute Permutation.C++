@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 vector<int> solve() {
 	int n, k;
 	cin >> n >> k;
@@ -14,10 +13,8 @@ vector<int> solve() {
 			swap(a[j], a[j + k]);
 		}
 	}
-
-	return a;
+        return a;
 }
-
 int main() {
 	int T;
 	cin >> T;
