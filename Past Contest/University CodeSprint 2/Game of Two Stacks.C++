@@ -1,11 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 const int N = 100009;
-
 int n, m, limit;
 long long a[N]={}, b[N]={};
-
 int main(){
     int TC; scanf("%d",&TC);
     while(TC--){
