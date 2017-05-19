@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
 class Solution {
 	static int W;
 	static int H;
@@ -13,7 +12,6 @@ class Solution {
 	static int lineSpacing = 0;
 	static int leftPadding;
 	static int topLineStart;
-
 	public static void main(String args[]) {
 		Scanner in = new Scanner(System.in);
 		initMatrix(in);
@@ -31,7 +29,6 @@ class Solution {
 		}
 		System.out.println(answer.deleteCharAt(result.size() * 3 - 1));
 	}
-
 	private static List<String> readScores() {
 		List<String> result = new ArrayList<String>();
 		for (int i = leftPadding; i < W; i++) { // scrolling left to right
