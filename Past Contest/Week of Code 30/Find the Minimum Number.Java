@@ -31,7 +31,6 @@ public class Solution {
 					result.append(closedPart).append(parentheses.toString());
 				}
 			}
-
 			// print
 			out.println(result.toString());
 		} catch(Exception e) {
