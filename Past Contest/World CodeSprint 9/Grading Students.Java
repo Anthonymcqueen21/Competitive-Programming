@@ -3,7 +3,6 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-
 class grading {
     static int convert(int score){
         if (score < 38) return score;
