@@ -1,5 +1,4 @@
 TC = int(input())
-
 for TEST in range(TC):
     st, noAns = input(), True
     for length in range(1,len(st) // 2 + 1):
