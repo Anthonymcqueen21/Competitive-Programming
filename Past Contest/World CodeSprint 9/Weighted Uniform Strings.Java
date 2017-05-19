@@ -3,7 +3,6 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-
 class weightedUniformString {
     static int weight(char ch){
         return ch - 'a' + 1;
@@ -26,7 +25,6 @@ class weightedUniformString {
         }
         return set;
     }
-    
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.next();
