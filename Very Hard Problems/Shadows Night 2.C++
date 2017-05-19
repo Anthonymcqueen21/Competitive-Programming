@@ -2,18 +2,14 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-
 using namespace std;
-
 int W; // width of the building.
 int H; // height of the building.
 vector<vector<bool>> windows;
-
 int minX = 0;
 int minY = 0;
 int maxX;
 int maxY;
-
 double dist(pair<int, int> point1, pair<int, int> point2)
 {
     return sqrt(pow(point1.first - point2.first, 2) + pow(point1.second - point2.second, 2));
