@@ -4,16 +4,12 @@
 #include <algorithm>
 #include <map>
 using namespace std;
-
-
-
 struct TreeNode
 {
     TreeNode* dotChild = NULL;
     TreeNode* dashChild = NULL;
     long long valid = 0;
 };
-
 string encode(string input)
 {
     string result;
