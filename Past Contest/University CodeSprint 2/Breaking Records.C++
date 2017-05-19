@@ -1,8 +1,6 @@
 #include <cstdio>
 using namespace std;
-
 int n, min, max, ans1 = 0, ans2 = 0;
-
 int main() {
     scanf("%d%d",&n,&min);
     max = min;
