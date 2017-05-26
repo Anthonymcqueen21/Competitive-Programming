@@ -4,9 +4,7 @@
 #include <algorithm>
 #include <set>
 #include <map>
-
 using namespace std;
-
 int count(int node, map<int, vector<int>>& edges)
 {
     if (!edges[node].empty())
