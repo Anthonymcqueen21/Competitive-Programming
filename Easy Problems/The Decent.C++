@@ -1,11 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
 int main()
 {
 
