@@ -4,15 +4,12 @@
 #include <queue>
 #include <algorithm>
 #include <stdexcept>
-
 using namespace std;
-
 struct Node {
 	int id;
 	bool isGateway;
 	vector<int> connections;
 };
-
 struct Path
 {
 	Node* currentNode;
