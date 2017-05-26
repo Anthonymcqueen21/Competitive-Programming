@@ -1,22 +1,16 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
 class Solution {
-
-	private static class Trie {
-		
+        private static class Trie {
 		private class Node {
-			
 			private final int value;
 			private final Map<Integer, Node> children;
-			
 			private Node(int value) {
 				this.value = value;
 				this.children = new HashMap<>();
 				Trie.this.nodesCount++;
 			}
-			
 			public void add(int[] telephoneNumber, int index) {
 				if (index < telephoneNumber.length) {
 					children.computeIfAbsent(telephoneNumber[index], key -> new Node(key)).add(telephoneNumber, index + 1);
