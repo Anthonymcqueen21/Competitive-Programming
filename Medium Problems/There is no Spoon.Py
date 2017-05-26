@@ -1,7 +1,5 @@
 import sys
 from collections import OrderedDict, deque
-
-
 class Node():
     """
     Basic structure for nodes/islands.
@@ -12,7 +10,6 @@ class Node():
     left = None
     down = None
     up = None
-
     def __init__(self, pos, amount, number):
         self.pos = pos
         self.amount = amount
