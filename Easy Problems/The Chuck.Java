@@ -1,9 +1,7 @@
 import java.util.*;
 import java.io.*;
 import java.math.*;
-
 class Solution {
-
 	// convert String to binary String
 	public static String toBinary(String in) {
 		byte[] bytes = in.getBytes();
