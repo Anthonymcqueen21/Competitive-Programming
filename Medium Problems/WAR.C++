@@ -2,9 +2,7 @@
 #include <string>
 #include <stdexcept>
 #include <list>
-
 using namespace std;
-
 class CCard
 {
     int m_value;
