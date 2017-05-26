@@ -11,9 +11,6 @@ class Player
                   public double X;
                   public double Y;
          }
-
-         // Given three colinear points p, q, r, the function checks if
-         // point q lies on line segment 'pr'
          static bool onSegment(Point p, Point q, Point r)
          {
                   if (q.X <= Math.Max(p.X, r.X) && q.X >= Math.Min(p.X, r.X) &&
