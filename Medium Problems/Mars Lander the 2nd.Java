@@ -1,23 +1,16 @@
 import java.util.Scanner;
-
 class Player {
-	
-	private static final int EPSILON = 5;
+        private static final int EPSILON = 5;
 	private static final int MAX_VERTICAL_SPEED = 40;
 	private static final int MAX_HORIZONTAL_SPEED = 20;
-	
 	private static final double GRAVITY = 3.711;
 	private static final int SECURITY_DISTANCE_FROM_FLAT_GROUND = 50;
-    
-	public static void main(String args[]) {
-    	
-        Scanner in = new Scanner(System.in);
+        public static void main(String args[]) {
+    	Scanner in = new Scanner(System.in);
         int N = in.nextInt(); // the number of points used to draw the surface of Mars.
-        
         int flatGroundLeftX = -1;
         int flatGroundRightX = -1;
         int flatGroundY = -1;
-        
         int previousPointX = -1;
         int previousPointY = -1;
         for (int i = 0; i < N; i++) {
