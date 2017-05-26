@@ -1,17 +1,13 @@
 import java.io.*;
 import java.math.*;
-
 class Solution {
-
 	public static void main(String args[]) {
 		Scanner in = new Scanner(System.in);
 		int largeur = in.nextInt();
 		int hauteur = in.nextInt();
 		in.nextLine();
-		
 		String nombre[][];
 		nombre = new String[20][hauteur];
-		
 		for(int i=0; i<hauteur ; i++){
 		    String line = in.nextLine();
 		    while(line.length() < (20*largeur)){
@@ -22,7 +18,6 @@ class Solution {
 		        nombre[j][i] = nombreLigne;
 		    }
 		}
-		
 		int hauteurChiffre1 = in.nextInt();
 		in.nextLine();
 		String[] ligneChiffre1= new String[hauteurChiffre1];
