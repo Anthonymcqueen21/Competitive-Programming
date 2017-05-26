@@ -2,14 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collector;
-
 class Solution {
-	
 	private static class House {
-		
 		private final int x;
 		private final int y;
-
 		private House(int x, int y) {
 			this.x = x;
 			this.y = y;
