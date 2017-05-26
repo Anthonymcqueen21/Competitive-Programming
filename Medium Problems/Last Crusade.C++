@@ -4,14 +4,9 @@
 #include <algorithm>
 #include <map>
 #include <sstream>
-
 using namespace std;
-
-
 int main() {
-    
     map<pair<int, int>, int> grid;
-    
     int W; // number of columns
     int H; // number of rows
     cin >> W >> H; cin.ignore();
