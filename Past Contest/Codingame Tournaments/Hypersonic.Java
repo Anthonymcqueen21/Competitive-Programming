@@ -4,10 +4,8 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.*;
 import java.util.List;
-
 class Player { public static void main(String[] args) { new Engine().start();}}
 class AI {
-  
   Grid grid;
 
   AI(Grid grid) {
