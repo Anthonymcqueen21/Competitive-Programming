@@ -1,7 +1,3 @@
-/**
- * Grab Snaffles and try to throw them through the opponent's goal!
- * Move towards a Snaffle and use your team id to determine where you need to throw it.
- **/
 const optimalDistanceForFlipendo = 3500;
 
 function findSnaffleToFlipendo(myWizard, snaffles) {
