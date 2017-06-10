@@ -24,7 +24,6 @@ vector<Node*> getGatewayLinks(Node* node)
         if (connection->exitNode)
             nodes.push_back(connection);
     }
-    
     return nodes;
 }
 
