@@ -17,6 +17,5 @@ int main() {
     if(a2>b2) alice++;
     else {if(a2 !=b2) bob++;}
     cout<<alice << " " <<bob;
-    
     return 0;
 }
