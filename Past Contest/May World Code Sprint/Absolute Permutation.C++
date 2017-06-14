@@ -3,8 +3,7 @@ using namespace std;
 vector<int> solve() {
 	int n, k;
 	cin >> n >> k;
-
-	vector<int> a(n);
+        vector<int> a(n);
 	for (int i = 0; i < n; i++) a[i] = i + 1;
 
 	for (int i = 0; i < k; i++) {
