@@ -17,7 +17,6 @@ typedef std::pair<int, int> action_t;
 typedef std::list<action_t> solution_t;
 typedef std::pair<int, int> node_t;
 typedef std::list<node_t> nodes_list_t;
-
 void dump_map(const map_t& m)
 {
     for (size_t i = 0; i < m.size(); i++)
@@ -29,7 +28,6 @@ void dump_map(const map_t& m)
         std::cerr << std::endl;
     }
 }
-
 void dump_nodes(const nodes_list_t& n)
 {
     nodes_list_t::const_iterator i = n.begin();
