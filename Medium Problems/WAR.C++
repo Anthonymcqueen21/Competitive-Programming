@@ -7,7 +7,6 @@ class CCard
 {
     int m_value;
     int m_suit;
-    
     public:
         CCard(std::istream& in): m_value(0), m_suit(0)
         {
