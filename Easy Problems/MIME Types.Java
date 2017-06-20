@@ -5,7 +5,6 @@ class Solution {
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         Map<String, String> types = new HashMap<String, String>();
-
         int N = in.nextInt(); // Number of elements which make up the association table.
         in.nextLine();
         int Q = in.nextInt(); // Number Q of file names to be analyzed.
