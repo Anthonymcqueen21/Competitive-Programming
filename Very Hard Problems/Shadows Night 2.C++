@@ -35,10 +35,8 @@ pair<int, int> calculateCentroid()
             }
         }
     }
-
     return {int(round(totalX / (double)k)), int(round(totalY / (double)k))};
 }
-
 int main()
 {
     cin >> W >> H; cin.ignore();
