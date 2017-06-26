@@ -25,10 +25,8 @@ class Player {
             	previousPointY = LAND_Y;
             }
         }
-        
         // game loop
         while (true) {
-        	
             int X = in.nextInt();
             int Y = in.nextInt();
             int HS = in.nextInt(); // the horizontal speed (in m/s), can be negative.
@@ -36,8 +34,7 @@ class Player {
             int F = in.nextInt(); // the quantity of remaining fuel in liters.
             int R = in.nextInt(); // the rotation angle in degrees (-90 to 90).
             int P = in.nextInt(); // the thrust power (0 to 4).
-
-            if (isMarsLanderFlyingOverFlatGround(X, flatGroundLeftX, flatGroundRightX)) {
+	    if (isMarsLanderFlyingOverFlatGround(X, flatGroundLeftX, flatGroundRightX)) {
             	
             	if (isMarsLanderAboutToLand(Y, flatGroundY)) {
             		R = 0;
