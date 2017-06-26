@@ -23,8 +23,7 @@ class Solution {
 		String[] ligneChiffre1= new String[hauteurChiffre1];
 		
 		for(int i=0; i<hauteurChiffre1 ; i++){
-		    ligneChiffre1[i] = in.nextLine();
-		    
+		    ligneChiffre1[i] = in.nextLine();    
 		}
 		int hauteurChiffre2 = in.nextInt();
 		in.nextLine();
@@ -32,16 +31,11 @@ class Solution {
 		
 		for(int i=0; i<hauteurChiffre2 ; i++){
 		    ligneChiffre2[i] = in.nextLine();
-		    
 		}
-		
 		int chiffre1 = nombreMaya(nombre, ligneChiffre1,hauteur);
 		int chiffre2 = nombreMaya(nombre, ligneChiffre2,hauteur);
-		
 		String line = in.nextLine();
-		
 		long resultLong = calculMaya(line, chiffre1,chiffre2);
-
 		double valeurPuissance = 0;
 		
 		if(resultLong == 0l){
