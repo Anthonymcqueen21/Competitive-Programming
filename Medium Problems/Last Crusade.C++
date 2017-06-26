@@ -24,7 +24,6 @@ int main() {
     }
     int EX;
     cin >> EX; cin.ignore();
-    
     // The Game Loop
     while(1) {
         int XI;
@@ -42,7 +41,6 @@ int main() {
             case 13:
                cout << XI << " " << (YI+1) << endl;
                break;
-               
            case 2:
            case 6:
            {
