@@ -2,19 +2,15 @@ import java.util.*;
 import java.io.*;
 import java.math.*;
 class Solution {
-    
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         int R = in.nextInt();
         int L = in.nextInt();
-        
         String init = ""+R;
         String res = ""+init.charAt(0);
         String temp = "";
-        
         char cur;
         int occur;
-        
         int i = 1;
         int j;
         while(i<L) {
