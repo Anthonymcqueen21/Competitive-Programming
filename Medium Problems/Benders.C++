@@ -6,7 +6,6 @@
 #include <set>
 #include <assert.h>
 using namespace std;
-
 class CField
 {
     public:
