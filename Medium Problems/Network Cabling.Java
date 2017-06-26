@@ -20,27 +20,21 @@ class Solution {
 		}
 		
 	}
-	
 	private static class HousesSummaryStatistics {
-		
 		private final int minX;
 		private final int maxX;
 		private final double avgY;
-		
 		private HousesSummaryStatistics(int minX, int maxX, double avgY) {
 			this.minX = minX;
 			this.maxX = maxX;
 			this.avgY = avgY;
 		}
-
 		public int getMinX() {
 			return minX;
 		}
-
 		public int getMaxX() {
 			return maxX;
 		}
-
 		public double getAvgY() {
 			return avgY;
 		}
