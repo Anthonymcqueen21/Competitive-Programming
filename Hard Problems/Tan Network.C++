@@ -1,5 +1,4 @@
 #include <math.h>
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -28,17 +27,14 @@ double _distance(double lat1, double long1, double lat2, double long2)
     //std::cerr << "x = " << x << "; y = " << y << "; result = " << result << std::endl;
     return result;
 }
-
 double _distance(const std::pair<double, double>& a, const std::pair<double, double>& b)
 {
     return _distance(a.first, a.second, b.first, b.second);
 }
-
 void unquote(std::string& v)
 {
     v = v.substr(1, v.length() - 2);
 }
-
 typedef std::string edge_t;
 typedef std::list<edge_t> edges_list_t;
 typedef std::set<std::pair<double, edge_t> > edges_set_t;
