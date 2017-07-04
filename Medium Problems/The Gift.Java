@@ -21,12 +21,10 @@ private static final String IMPOSSIBLE_SOLUTION = "IMPOSSIBLE";
         }
         
     }
-    
     private static boolean isGiftFeasible(int giftCost, PriorityQueue<Integer> budgets) {
     	return budgets.stream().mapToInt(Integer::intValue).sum() >= giftCost; 
     }
-    
-	private static List<Integer> calculateContributions(int giftCost, PriorityQueue<Integer> budgets) {
+    private static List<Integer> calculateContributions(int giftCost, PriorityQueue<Integer> budgets) {
 		
 		List<Integer> contributions = new ArrayList<Integer>(budgets.size());
 		
