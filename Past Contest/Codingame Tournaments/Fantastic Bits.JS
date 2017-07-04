@@ -1,5 +1,4 @@
 const optimalDistanceForFlipendo = 3500;
-
 function findSnaffleToFlipendo(myWizard, snaffles) {
   const snaffleToFlipendo = snaffles.find(snaffle => {
     return getDistanceBetween(snaffle, myWizard) < optimalDistanceForFlipendo &&
@@ -10,18 +9,15 @@ function findSnaffleToFlipendo(myWizard, snaffles) {
 
   return snaffleToFlipendo && snaffleToFlipendo.entityId;
 }
-
 function isSnaffleBetweenEnnemyGoal(myWizard, snaffle) {
     return ((myWizard.x > snaffle.x && snaffle.x > enemyGoal.x)
       || (myWizard.x < snaffle.x && snaffle.x < enemyGoal.x)) &&
       ((myWizard.y > snaffle.y && snaffle.y > enemyGoal.y)
         || (myWizard.y < snaffle.y && snaffle.y < enemyGoal.y));
 }
-
 function getMyWizards(entities) {
   return entities.filter(entity => entity.entityType === 'WIZARD');
 }
-
 function getSnaffles(entities) {
   return entities.filter(entity => entity.entityType === 'SNAFFLE');
 }
