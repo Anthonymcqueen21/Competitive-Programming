@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include <algorithm>
-
 using namespace std;
-
 int N;
 int A[100007];
 long long SUM;
-
 inline void init()
 {
 	int i;
