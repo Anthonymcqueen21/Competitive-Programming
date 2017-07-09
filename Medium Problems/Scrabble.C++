@@ -48,34 +48,27 @@ int charVal(char c)
             return 10;
     };
 }
-
 int main() {
-    
     vector<string> words;
-    
     int N;
     cin >> N; cin.ignore();
     for (int i = 0; i < N; i++) {
         string W;
         getline(cin, W);
-        
         if (W.length() <= 7)
             words.push_back(W);
     }
     string LETTERS;
     getline(cin, LETTERS);
-    
     // Find all possible words that can be made with the 7 letters
     vector<string> possibleWords;
     for (const string& word : words) {
-        
         string sortedWord = word;
         sort(LETTERS.begin(), LETTERS.end());
         sort(sortedWord.begin(), sortedWord.end());
         if (includes(LETTERS.begin(), LETTERS.end(), sortedWord.begin(), sortedWord.end()))
             possibleWords.push_back(word);
     }
-    
     // Find the word that gives us the most letters
     int maxVal = 0;
     string bestWord;
@@ -89,6 +82,5 @@ int main() {
             bestWord = word;
         }
     }
-    
     cout << bestWord << endl;
 }
