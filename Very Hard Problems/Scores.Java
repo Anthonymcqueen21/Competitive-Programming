@@ -15,14 +15,10 @@ class Solution {
 	public static void main(String args[]) {
 		Scanner in = new Scanner(System.in);
 		initMatrix(in);
-
 		String image = in.nextLine();
 		decode(image.split(" "));
-
 		setMusicalScoreDetails();
-
 		List<String> result = readScores();
-
 		StringBuilder answer = new StringBuilder(result.size() * 3);
 		for (String score : result) {
 			answer.append(score).append(" ");
@@ -33,11 +29,9 @@ class Solution {
 		List<String> result = new ArrayList<String>();
 		for (int i = leftPadding; i < W; i++) { // scrolling left to right
 			for (int line = 0; line < 6; line++) { // 5 staff lines + 1 ledger line
-
 				int sliderOnLine = topLineStart + line * (lineWidth + lineSpacing) - 1;
 				int sliderHalfLine = sliderOnLine + 1 - lineSpacing / 2;
 				int sliderUnderLine = sliderOnLine + 1 - lineSpacing;
-
 				if (matrix[sliderHalfLine][i]) { // if first pixel is in the space, that means note sits on the line
 					boolean half = false;
 					while (!matrix[sliderUnderLine][i]) { // scroll lower part of the note, until black pixel
