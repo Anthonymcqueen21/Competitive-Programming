@@ -22,7 +22,6 @@ double analyze(const std::vector<double>& values)
         dsqrs[i] = diffs[i]*diffs[i];
     }
     double range = sqrt(std::accumulate(dsqrs.begin(), dsqrs.end(), 0.0)/(values.size() -1));
-
     int n = 0;
     std::cerr << "sum: " << sum << std::endl;
     std::cerr << "size: " << values.size() << std::endl;
@@ -37,10 +36,8 @@ double analyze(const std::vector<double>& values)
             n++;
         }
     }
-
     return range;
 }
-
 void scale_to(values_t& values, double length = 1.0)
 {
     size_t min_v = 0;
@@ -56,7 +53,6 @@ void scale_to(values_t& values, double length = 1.0)
             max_v = i;
         }
     }
-
     double min = values[min_v];
     double max = values[max_v] - min;
     for (values_t::iterator i = values.begin(); i != values.end(); i++)
@@ -80,7 +76,6 @@ int main()
     int N;
     std::cin >> N;
     std::cin.ignore();
-
     std::vector<double> counts(N);
     std::vector<double> values(N);
     std::vector<double> v_1(N);
@@ -91,7 +86,6 @@ int main()
     std::vector<double> n_2_log_n(N);
     std::vector<double> n_3(N);
     std::vector<double> e(N);
-
     for (int i = 0; i < N; i++)
     {
         std::cin >> counts[i] >> values[i];
@@ -105,7 +99,6 @@ int main()
         std::cerr << e[i] << " " << std::endl;
         std::cin.ignore();
     }
-
     scale_to(values);
     scale_to(v_1);
     scale_to(n);
@@ -115,7 +108,6 @@ int main()
     scale_to(n_2_log_n);
     scale_to(n_3);
     scale_to(e);
-
     for (values_t::size_type i = 0; i < values.size(); i++)
     {
         v_1[i] = values[i] - v_1[i];
@@ -127,7 +119,6 @@ int main()
         n_3[i] = values[i] - n_3[i];
         e[i] = values[i] - e[i];
     }
-
     double O_1 = analyze(v_1);
     double O_n = analyze(n);
     double O_log_n = analyze(log_n);
@@ -136,9 +127,7 @@ int main()
     double O_n_2_log_n = analyze(n_2_log_n);
     double O_n_3 = analyze(n_3);
     double O_e = analyze(e);
-
     std::map<double, std::string> result;
-
     if (std::isfinite(O_1))
     {
         result[O_1] = "O(1)";
@@ -171,7 +160,6 @@ int main()
     {
         result[O_e] = "O(2^n)";
     }
-
     std::cout.precision(2);
     std::cerr << "O(1): " << O_1 << std::endl;
     std::cerr << "O(n): " << O_n << std::endl;
@@ -184,7 +172,6 @@ int main()
 
     // Write an action using cout. DON'T FORGET THE "<< endl"
     // To debug: cerr << "Debug messages..." << endl;
-
     for (std::map<double, std::string>::const_iterator j = result.begin(); j != result.end(); j++)
     {
         std::cerr << j->first << ": " << j->second << std::endl;
