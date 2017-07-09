@@ -46,47 +46,36 @@ string encode(string input)
             default: throw runtime_error("ERROR");
         }
     }
-    
     return result;
 }
-
 void insert(TreeNode* node, string dictWord, long long pos = 0)
 {
     while (pos < dictWord.size()) {
         if (dictWord[pos] == '.') {
             if (node->dotChild == NULL)
-                node->dotChild = new TreeNode();
-            
+            node->dotChild = new TreeNode();
             node = node->dotChild;
         }
         else {
             if (node->dashChild == NULL)
                 node->dashChild = new TreeNode();
-            
-            node = node->dashChild;
+                node = node->dashChild;
         }
-        
         pos += 1;
     }
-    
     node->valid += 1;
 }
-
 void deleteTree(TreeNode* node)
 {
     if (node->dotChild != NULL)
         deleteTree(node->dotChild);
-
     if (node->dashChild != NULL)
-        deleteTree(node->dashChild);
-    
+    deleteTree(node->dashChild);
     delete node;
 }
-
 string L;
 TreeNode* root = new TreeNode();
 map<long long, long long> cache;
-
 long long solve(long long pos)
 {
     TreeNode* node = root;
@@ -118,7 +107,6 @@ long long solve(long long pos)
         
         ++pos;
     }
-
     return solutions;
 }
 
