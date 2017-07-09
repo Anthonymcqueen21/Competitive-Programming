@@ -4,16 +4,14 @@
 #include <cstdlib>
 class CGraph
 {
-    class CNode
+class CNode
     {
         int m_weight;
         int m_next1;
         int m_next2;
-        
         public:
             CNode(): m_weight(0), m_next1(0), m_next2(0) {}
             CNode(int weight, int next1, int next2): m_weight(weight), m_next1(next1), m_next2(next2) {}
-            
             int weight() const { return m_weight; }
             int top() const { return m_next1; }
             int right() const { return m_next2; }
@@ -21,21 +19,17 @@ class CGraph
     
     typedef std::vector<CNode> building_t;
     typedef std::vector<int> weights_t;
-    
     int m_count;
     building_t m_building;
     mutable weights_t m_weights;
-    
     public:
         CGraph(int size): m_count(size), m_building(size), m_weights(size, -1)
         {
         }
-        
         void add_node(int number, int weight, int top, int right)
         {
             m_building[number] = CNode(weight, top, right);
         }
-        
         void dump() const
         {
             for (size_t i = 0; i < m_building.size(); i++)
@@ -77,7 +71,6 @@ class CGraph
             return solve(0);
         }
 };
-
 int main()
 {
 	int size;
@@ -118,8 +111,6 @@ int main()
 	}
 	std::cerr << std::endl;
 	g.dump();
-	
 	std::cout << g.solution() << std::endl;
-	
 	return 0;
 }
