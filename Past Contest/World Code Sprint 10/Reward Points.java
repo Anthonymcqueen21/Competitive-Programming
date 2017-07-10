@@ -3,19 +3,15 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-
 public class Solution {
-
-    static int getPoints(int month1, int month2, int month3){
-      
-            if(month1<=10){
+      static int getPoints(int month1, int month2, int month3){
+             if(month1<=10){
                 int first;
                 first = month1*10;
                 month1 = first;
             }else if(month1 > 10) { 
                 month1 = 100;
             }
-          
             if(month2 <= 10){
                 int second;
                 second = month2*10;
@@ -23,7 +19,6 @@ public class Solution {
             }else if(month2 > 10){
                 month2 = 100;               
             }
-           
             if(month3 <= 10){
                 int third;
                 third = month3*10;
