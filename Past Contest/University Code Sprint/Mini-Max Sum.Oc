@@ -2,10 +2,8 @@ let int_list regex =
   List.map
     int_of_string
     (Core.Std.String.split (read_line ()) ~on:' ')
-
 let space_separated_int_list () =
   int_list " "
-
 let min_max_sum = function
   | [] | _ :: [] -> (0, 0)
   | x :: y :: [] -> (min x y, max x y)
