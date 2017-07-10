@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 int streak;
-
 void getStreak(vector<int> a, int i, bool increasing) {
     //cout << streak << " ";
     if (i >= a.size() - 1) {
@@ -38,7 +36,6 @@ int minimumDeletions(vector < int > a){
     }
     return minDel;
 }
-
 int main() {
     int n;
     cin >> n;
