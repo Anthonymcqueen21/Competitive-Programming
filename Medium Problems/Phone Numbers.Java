@@ -18,10 +18,8 @@ class Solution {
 			}
 			
 		}
-		
 		private int nodesCount;
 		private final Node root;
-
 		private Trie() {
 			this.nodesCount = 0;
 			this.root = new Node(-1);
@@ -36,24 +34,17 @@ class Solution {
 		}
 		
 	}
-	
-	
-	
-    public static void main(String args[]) {
-    	
-        Scanner in = new Scanner(System.in);
+        public static void main(String args[]) {
+    	Scanner in = new Scanner(System.in);
         int N = in.nextInt();
-        
         Trie trie = new Trie();
         for (int i = 0; i < N; i++) {
             String telephone = in.next();
             trie.add(parseTelephoneNumber(telephone));
             
         }
-
         System.out.println(trie.getNodesCount()); // The number of elements (referencing a number) stored in the structure.
     }
-    
     private static int[] parseTelephoneNumber(String telephoneNumber) {
     	return telephoneNumber.chars().map(Character::getNumericValue).toArray();
     }
