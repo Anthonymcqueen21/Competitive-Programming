@@ -12,7 +12,6 @@ for TEST in range(TC):
             if pos + currentLength > len(st):
                 isAns = False
                 break
-
             if st[pos:pos + currentLength][0] != '0' and int(st[pos:pos + currentLength]) - f == 1:
                 f = int(st[pos:pos + currentLength])
                 pos += currentLength
@@ -23,8 +22,7 @@ for TEST in range(TC):
             else:
                 isAns = False
                 break
-
-        if isAns:
+            if isAns:
             print('YES',x)
             noAns = False
             break
