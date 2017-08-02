@@ -17,7 +17,7 @@ class grading {
         int n = in.nextInt();
         for(int a0 = 0; a0 < n; a0++) {
             int grade = in.nextInt();
-                System.out.println(convert(grade));
+            System.out.println(convert(grade));
         }
     }
 }
