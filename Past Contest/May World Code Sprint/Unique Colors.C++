@@ -1,12 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int n;
 int c[101010];
 vector<int> g[101010];
 int sub[202020];
 multimap<int, int> mp[101010];
-
 long long dp_down[101010];
 long long dp_up[101010];
 long long dp_cost[101010];
@@ -14,7 +12,6 @@ vector<int> children[202020];
 int parent[202020];
 int color_sub[202020];
 int super_sub[202020];
-
 void dfs(int curr, int prev) {
 	sub[curr] = 1;
 	dp_down[curr] = 1;
