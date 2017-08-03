@@ -45,7 +45,6 @@ for y in range(height):
 
 # The total number of the nodes.
 N = len(nodes)
-
 # Find all the neighbors for each node.
 for (x, y), node in nodes.items():
     for xx in range(x+1, width):
