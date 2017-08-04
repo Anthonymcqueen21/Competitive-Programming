@@ -24,10 +24,10 @@ public class Solution {
 					parentheses.append(")");
 				} else {
 			        // append closed part and parentheses
-					result.append(closedPart).append(parentheses.toString());
+				result.append(closedPart).append(parentheses.toString());
 				}
 			}
-			// print
+		// print
 			out.println(result.toString());
 		} catch(Exception e) {
 
