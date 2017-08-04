@@ -23,7 +23,7 @@ public class Solution {
 					result.append(repeatedPart);
 					parentheses.append(")");
 				} else {
-					// append closed part and parentheses
+			        // append closed part and parentheses
 					result.append(closedPart).append(parentheses.toString());
 				}
 			}
