@@ -19,9 +19,9 @@ public class Solution {
 			}
 			for(int i = 0; i < n; i++) {
 				if(i != n - 1) {
-					// append repeated part and parentheses
-					result.append(repeatedPart);
-					parentheses.append(")");
+				// append repeated part and parentheses
+				result.append(repeatedPart);
+				parentheses.append(")");
 				} else {
 			        // append closed part and parentheses
 				result.append(closedPart).append(parentheses.toString());
