@@ -9,7 +9,6 @@ class Player {
         int TX = in.nextInt();
         int TY = in.nextInt();
         in.nextLine();
-        
         // The Game Loop
         while(true) {
             int E = in.nextInt();
