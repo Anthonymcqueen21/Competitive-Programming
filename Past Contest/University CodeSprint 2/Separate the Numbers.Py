@@ -26,6 +26,5 @@ for TEST in range(TC):
             print('YES',x)
             noAns = False
             break
-
-    if noAns:
+            if noAns:
         print('NO')
