@@ -13,7 +13,6 @@ class Player {
         while(true) {
             int E = in.nextInt();
             in.nextLine();
-            
             // map size 40 X 18
             String direction = "";
             if(LY > TY && TY < 17) {
