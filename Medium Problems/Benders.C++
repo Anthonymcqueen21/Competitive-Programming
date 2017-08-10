@@ -8,8 +8,8 @@
 using namespace std;
 class CField
 {
-    public:
-        enum ECell
+ public:
+       enum ECell
         {
             EC_NONE = ' ',
             EC_WALL = '#',
