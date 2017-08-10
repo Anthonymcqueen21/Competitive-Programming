@@ -1,7 +1,6 @@
 import java.util.*;
 import java.io.*;
 import java.math.*;
-
 class Player {
     
     public static void main(String args[]) {
