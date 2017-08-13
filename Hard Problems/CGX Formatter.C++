@@ -8,16 +8,14 @@ int spaces = 0;
 bool newLine = true;
 void printSpaces(int spaces)
 {
-    for (int i = 0; i < spaces; ++i)
+for (int i = 0; i < spaces; ++i)
         cout << ' ';
 }
-
 void printNewLine()
 {
     cout << endl;
     newLine = true;
 }
-
 void print(char c)
 {
     if (newLine)
