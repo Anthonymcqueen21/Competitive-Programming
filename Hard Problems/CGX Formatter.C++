@@ -25,10 +25,8 @@ void print(char c)
         printSpaces(spaces);
         newLine = false;
     }
-    
     cout << c;
 }
-
 int main()
 {
     
