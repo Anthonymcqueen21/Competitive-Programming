@@ -12,8 +12,8 @@ struct TreeNode
 };
 string encode(string input)
 {
-    string result;
-    for (auto& c : input)
+string result;
+for (auto& c : input)
     {
         switch (c)
         {
