@@ -7,19 +7,19 @@ class Solution {
     for (int i = 0; i < size; i++) {
          rows[i] = in.nextLine();
     }
-            return rows;
+         return rows;
     }
     public static String[] initAnswer(Scanner in, int size) {
         String[] answer = new String[size];
     for (int i = 0; i < size; i++) {
         answer[i] = "";
     }
-           return answer;
+        return answer;
     }
     public static String formatAnswer(String[] answer, int size) {
         String result="";
         for( int i = 0;i < size; i++) {
-            result += answer[i]+"\n";
+        result += answer[i]+"\n";
         }
         return result;
     }
