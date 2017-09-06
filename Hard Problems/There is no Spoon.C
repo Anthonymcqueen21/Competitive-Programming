@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-
 /**
  * The machines are gaining ground. Time to show them what we're really made of...
  **/
