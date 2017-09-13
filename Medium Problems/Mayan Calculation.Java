@@ -2,7 +2,7 @@ import java.io.*;
 import java.math.*;
 class Solution {
 	public static void main(String args[]) {
-		Scanner in = new Scanner(System.in);
+	Scanner in = new Scanner(System.in);
 		int largeur = in.nextInt();
 		int hauteur = in.nextInt();
 		in.nextLine();
