@@ -3,7 +3,6 @@ using namespace std;
 string s_bar(string& str, int length){
 string result = "";
 for(int i = 0; i < length; i++){
-
         if(str.at(i) == '1')
 
             result += '0';
