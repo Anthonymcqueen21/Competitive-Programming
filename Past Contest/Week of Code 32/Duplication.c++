@@ -6,8 +6,7 @@ for(int i = 0; i < length; i++){
         if(str.at(i) == '1')
           result += '0';
         else
-
-            result += '1';
+          result += '1';
 
     }
 
