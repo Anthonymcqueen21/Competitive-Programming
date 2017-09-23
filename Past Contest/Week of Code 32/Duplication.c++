@@ -12,7 +12,6 @@ return result;
 
 }
 string duplication(int x){
-
     // Complete this function
 
     string result;
