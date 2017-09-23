@@ -9,7 +9,6 @@ for(int i = 0; i < length; i++){
           result += '1';
 }
 return result;
-
 }
 string duplication(int x){
     // Complete this function
