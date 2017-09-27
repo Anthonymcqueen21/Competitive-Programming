@@ -1,6 +1,7 @@
 import java.util.*;
 import java.io.*;
 import java.math.*;
+// Showing start class
 class Solution {
     public static String[] initRows(Scanner in, int size) {
         String[] rows = new String[size];
