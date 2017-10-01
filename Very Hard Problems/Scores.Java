@@ -7,7 +7,7 @@ class Solution {
 	static int currentW = 0;
 	static int currentH = -1;
 	static boolean[][] matrix; //true = is black pixel, (false = white)
-
+	// Static integer values
 	static int lineWidth = 0;
 	static int lineSpacing = 0;
 	static int leftPadding;
