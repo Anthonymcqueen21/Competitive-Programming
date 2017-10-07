@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <map>
 using namespace std;
+// Tree chart logic
 struct TreeNode
 {
    TreeNode* dotChild = NULL;
