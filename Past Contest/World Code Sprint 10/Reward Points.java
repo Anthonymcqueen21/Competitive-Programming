@@ -4,6 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 public class Solution {
+      // Setting points
       static int getPoints(int month1, int month2, int month3){
              if(month1<=10){
                 int first;
