@@ -17,7 +17,7 @@ class CNode
             int top() const { return m_next1; }
             int right() const { return m_next2; }
     };
-    
+    // type defined
     typedef std::vector<CNode> building_t;
     typedef std::vector<int> weights_t;
     int m_count;
