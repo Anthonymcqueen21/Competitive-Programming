@@ -2,8 +2,8 @@
 #include <string>
 #include <vector>
 #include <cstdlib>
-class CGraph
-{
+class CGraph {
+	// Define a CNode class
 class CNode
     {
         int m_weight;
