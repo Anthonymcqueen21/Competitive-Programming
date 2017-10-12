@@ -39,8 +39,7 @@ class CNode
                 const CNode r = m_building[i];
                 std::cerr << i << ": " << r.weight() << " " << r.top() << "/" << r.right() << std::endl;
             }
-        }
-        
+	}
         int solve(int room) const
         {
             if (-1 != m_weights[room])
