@@ -11,6 +11,7 @@ class CNode
         int m_next1;
         int m_next2;
         public:
+	// Constant different directions.
             CNode(): m_weight(0), m_next1(0), m_next2(0) {}
             CNode(int weight, int next1, int next2): m_weight(weight), m_next1(next1), m_next2(next2) {}
             int weight() const { return m_weight; }
