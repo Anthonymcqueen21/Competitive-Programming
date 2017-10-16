@@ -2,6 +2,7 @@ import java.io.*;
 import java.math.*;
 class Solution {
 	public static void main(String args[]) {
+		// Static new input
 	Scanner in = new Scanner(System.in);
 		int largeur = in.nextInt();
 		int hauteur = in.nextInt();
