@@ -14,7 +14,6 @@ double dist(pair<int, int> point1, pair<int, int> point2)
 {
     return sqrt(pow(point1.first - point2.first, 2) + pow(point1.second - point2.second, 2));
 }
-
 // Centroid of set of points is calculated by:
 // ((x1,y1) + (x2,y2) + ... + (xk,yk)) / k
 // k is the amount of windows where the bomb might still be here
