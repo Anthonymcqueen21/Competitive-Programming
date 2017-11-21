@@ -9,7 +9,6 @@ inline void init()
         int i;
 	scanf("%d", &N);
 	SUM = 0;
-
 	for (i = 1; i <= N; i++)
 	{
 		scanf("%d", &A[i]);
