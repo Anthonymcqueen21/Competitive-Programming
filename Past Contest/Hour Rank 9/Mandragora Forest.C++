@@ -38,10 +38,10 @@ inline long long solve()
 
 int main()
 {
-	int T;
+  int T;
 
-//	freopen("input.txt", "r", stdin);
-//	freopen("output.txt", "w", stdout);
+//freopen("input.txt", "r", stdin);
+//freopen("output.txt", "w", stdout);
 
 	scanf("%d", &T);
 
