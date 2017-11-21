@@ -6,10 +6,8 @@ int A[100007];
 long long SUM;
 inline void init()
 {
-	int i;
-
+        int i;
 	scanf("%d", &N);
-
 	SUM = 0;
 
 	for (i = 1; i <= N; i++)
