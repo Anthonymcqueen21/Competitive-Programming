@@ -3,7 +3,7 @@ function rash(arr) {
     for (let i=0; i<arr.length; i++) {
         if (arr[i]%2 == 0) continue;
         if (i == arr.length-1){
-              break;
+        break;
         }
         arr[i]++;
         arr[i+1]++;
