@@ -14,10 +14,10 @@ class weightedUniformString {
             char ch = s.charAt(i);
             int chWeight = weight(ch);
             
-            if(i != 0 && ch == s.charAt(i-1)){
+        if(i != 0 && ch == s.charAt(i-1)){
                 cumWeight += chWeight;
             }
-            else{
+        else{
                 cumWeight = chWeight;
             }
             set.add(cumWeight);
