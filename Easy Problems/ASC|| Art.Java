@@ -1,6 +1,8 @@
 import java.util.*;
 import java.io.*;
 import java.math.*;
+
+
 // Showing start class
 class Solution {
     public static String[] initRows(Scanner in, int size) {
@@ -10,6 +12,7 @@ class Solution {
     }
       return rows;
     }
+    
     public static String[] initAnswer(Scanner in, int size) {
         String[] answer = new String[size];
     for (int i = 0; i < size; i++) {
