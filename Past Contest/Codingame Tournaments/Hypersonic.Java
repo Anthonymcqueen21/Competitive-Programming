@@ -7,7 +7,6 @@ import java.util.List;
 class Player { public static void main(String[] args) { new Engine().start();}}
 class AI {
   Grid grid;
-
   AI(Grid grid) {
     this.grid = grid;
   }
