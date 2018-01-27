@@ -1,0 +1,2 @@
+import func:
+   def input():
