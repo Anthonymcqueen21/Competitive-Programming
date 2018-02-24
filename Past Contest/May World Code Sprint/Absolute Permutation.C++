@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 vector<int> solve() {
 	int n, k;
 	cin >> n >> k;
