@@ -1,15 +1,15 @@
 import sys
 from collections import OrderedDict, deque
 class Node():
-    """
-    Basic structure for nodes/islands.
+    """ Basic structure for nodes/islands.
     Contains the information about position and neighbors
-    and very few logic.
-    """
+    and very few logic. """
+    
     right = None
     left = None
     down = None
     up = None
+    
     def __init__(self, pos, amount, number):
         self.pos = pos
         self.amount = amount
