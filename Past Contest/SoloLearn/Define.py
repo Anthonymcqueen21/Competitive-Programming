@@ -1,0 +1,2 @@
+def Insert(head, data):
+    
