@@ -16,7 +16,6 @@ class Solution {
             types.put(EXT.toLowerCase(), MT);
             in.nextLine();
         }
-
         for (int i = 0; i < Q; i++) {
             String FNAME = in.nextLine(); // One file name per line.
             if(!FNAME.contains(".") || FNAME.split("\\.").length < 2 || FNAME.charAt(FNAME.length()-1) == '.') {
