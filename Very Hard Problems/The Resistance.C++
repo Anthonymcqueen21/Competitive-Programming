@@ -6,17 +6,15 @@
 using namespace std;
 
 // Tree chart logic
-struct TreeNode
-{
+struct TreeNode {
    TreeNode* dotChild = NULL;
    TreeNode* dashChild = NULL;
    long long valid = 0;
 };
-string encode(string input)
-{
+
+string encode(string input) {
 string result;
-for (auto& c : input)
-    {
+for (auto& c : input) {
         switch (c)
         {
             case 'A': result += ".-"; break;
