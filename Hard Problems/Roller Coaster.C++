@@ -3,8 +3,7 @@
 #include <vector>
 #include <algorithm>
 #include <queue>
-struct group_t
-{
+struct group_t {
     long long int size;
     int earn;
     int sequence;
@@ -12,8 +11,8 @@ struct group_t
     group_t(long long int s): size(s), earn(-1), sequence(0) {}
     group_t(long long int s, int e, int seq): size(s), earn(e), sequence(seq) {}
 };
-int main()
-{
+
+int main() {
     int L;
     int C;
     int N;
