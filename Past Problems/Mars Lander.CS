@@ -19,6 +19,7 @@ class Player
 
                   return false;
          }
+         
          // The main function that returns true if line segment 'p1q1'
          // and 'p2q2' intersect.
          static bool doIntersect(Point p1, Point q1, Point p2, Point q2)
