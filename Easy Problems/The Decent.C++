@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-int main()
-{
+
+int main() {
 // game loop
 while (1) {
         int max = 0;
