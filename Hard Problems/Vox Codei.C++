@@ -5,12 +5,13 @@
 #include <list>
 #include <map>
 using namespace std;
-enum EType
-{
+
+enum EType {
     ET_EMPTY = '.',
     ET_NODE = '@',
     ET_PASSIVE = '#'
 };
+
 typedef std::vector<EType> row_t;
 typedef std::vector<row_t> map_t;
 typedef std::pair<int, int> action_t;
