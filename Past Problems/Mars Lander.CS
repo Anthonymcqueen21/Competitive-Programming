@@ -6,12 +6,12 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 class Player
 {
-         class Point
+      class Point
          {
                   public double X;
                   public double Y;
          }
-         static bool onSegment(Point p, Point q, Point r)
+      static bool onSegment(Point p, Point q, Point r)
          {
                   if (q.X <= Math.Max(p.X, r.X) && q.X >= Math.Min(p.X, r.X) &&
                            q.Y <= Math.Max(p.Y, r.Y) && q.Y >= Math.Min(p.Y, r.Y))
