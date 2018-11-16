@@ -6,4 +6,4 @@ class Solution(object):
       """
       while num > 9:
           num = sum([int(c) for in str(num)])
-      return num
+return num
