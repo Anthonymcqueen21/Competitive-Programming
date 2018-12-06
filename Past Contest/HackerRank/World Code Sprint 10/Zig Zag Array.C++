@@ -2,7 +2,6 @@
 using namespace std;
 int streak;
 void getStreak(vector<int> a, int i, bool increasing) {
-    //cout << streak << " ";
     if (i >= a.size() - 1) {
         return;
     }
