@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 class Player
 {
-         class Point
+        class Point
          {
                   public double X;
                   public double Y;
