@@ -1,6 +1,5 @@
 #include <cmath>
 #include <iostream>
-
 int main() {
     int n, rating, n_above_90 = 0;
     float sum = 0;
