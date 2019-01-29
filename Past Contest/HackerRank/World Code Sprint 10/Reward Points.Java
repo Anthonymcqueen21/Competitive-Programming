@@ -30,8 +30,7 @@ public class Solution {
         
          return month1 + month2 + month3;
         
-    }
-
+      }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int month1 = sc.nextInt();
