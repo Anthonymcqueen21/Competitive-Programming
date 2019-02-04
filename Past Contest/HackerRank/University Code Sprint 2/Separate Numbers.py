@@ -1,3 +1,4 @@
+class Solution(object):
 TC = int(input())
 for TEST in range(TC):
     st, noAns = input(), True
