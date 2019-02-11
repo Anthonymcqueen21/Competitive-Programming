@@ -1,4 +1,5 @@
 # Skeletion code for a LinkedList 
+# Thinking of a way to code 
 
 class SingleLinkedList(object):
   
