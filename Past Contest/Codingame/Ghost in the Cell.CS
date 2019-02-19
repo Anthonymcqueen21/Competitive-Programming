@@ -181,7 +181,6 @@ class Player
     {
         var actions = new List<string>();
         BombesCoolDown--;
-
         var myFactories = factories.Where(x => x.player == 1);
         foreach (var dest in attackMoves.OrderByDescending(x => x.Value))
         {
