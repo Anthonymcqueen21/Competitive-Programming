@@ -4,4 +4,3 @@ class Solution(object):
        x = abs(x)
        reversed = 0
 print(reversed)
-       
