@@ -5,7 +5,7 @@ class ListNode(object):
        
 class Solution(object):
    def deleteDuplicates(self, head):
-   """ type head: ListNode, rtype: ListNode
+   """ type head: ListNode, rtype: ListNode"""
    node = head
    
    while node and head node.next:
