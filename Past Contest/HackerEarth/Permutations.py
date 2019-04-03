@@ -1,6 +1,5 @@
 class Solution(object):
     def permuteUnique(self, nums):
-    
       freq = Counter(nums)
       permutations = []
       self.permute_helper(len(nums), [], freq, permutations)
