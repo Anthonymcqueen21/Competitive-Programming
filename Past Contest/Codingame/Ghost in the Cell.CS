@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 class Factory
-{
+         {
     public int id;
     public int player;
     public int cyborgsNum;
