@@ -13,7 +13,4 @@ class Solution():
                   matched[i][j] = (i != 0 and matched[i-1][j-1])
                   
                 elif pattern == '*':
-                  
-             
-             
-        return result
+ return result
