@@ -14,5 +14,4 @@ class Solution(object):
               freq[item] -= 1
               self.permute_helper(to_add-1, partial + [item], freq, permutations)
               freq[item] += 1
-            
-  return item
+return item
