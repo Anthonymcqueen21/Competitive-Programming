@@ -35,7 +35,6 @@ class Player
             Console.Error.WriteLine($"[{pair.Key}]:{pair.Value}");
     }
     #endregion
-
     #region Static global game state
     static int[,] MAP;
     static List<Factory> factories;
