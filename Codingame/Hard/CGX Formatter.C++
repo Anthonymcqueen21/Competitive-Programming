@@ -8,27 +8,22 @@ using namespace std;
 int spaces = 0;
 bool newLine = true;
 
-void printSpaces(int spaces)
-{
+void printSpaces(int spaces) {
 for (int i = 0; i < spaces; ++i)
         cout << ' ';
 }
-void printNewLine()
-{
+void printNewLine() {
     cout << endl;
     newLine = true;
 }
-void print(char c)
-{
-    if (newLine)
-    {
+void print(char c) {
+    if (newLine) {
         printSpaces(spaces);
         newLine = false;
     }
     cout << c;
 }
-int main()
-{
+int main() {
     
     int N;
     cin >> N; cin.ignore();
@@ -37,19 +32,14 @@ int main()
         getline(cin, CGXLine);
         
         bool readingString = false;
-        for (char c : CGXLine)
-        {
-            if (readingString)
-            {
+        for (char c : CGXLine) {
+            if (readingString) {
                 print(c);
                 
                 if (c == '\'')
                     readingString = false;
-            }
-            else
-            {
-                switch (c)
-                {
+            } else {
+                switch (c) {
                     case ' ':
                     case '\t':
                         break;
