@@ -15,11 +15,9 @@ else
     horses.sort(sortHorses);
     printErr(horses);
     var smallestDiff = horses[1] - horses[0];
-    for(var i = 2 ; i < n; i++ )
-    {
+    for(var i = 2 ; i < n; i++ ) {
         var newDiff =  horses[i] - horses[ i - 1];
-        if( newDiff < smallestDiff )
-        {
+        if( newDiff < smallestDiff ) {
             smallestDiff  = newDiff;
         } 
     }
