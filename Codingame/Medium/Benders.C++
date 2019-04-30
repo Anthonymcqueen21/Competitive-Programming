@@ -6,11 +6,9 @@
 #include <set>
 #include <assert.h>
 using namespace std;
-class CField
-{
+class CField {
  public:
-       enum ECell
-        {
+       enum ECell {
             EC_NONE = ' ',
             EC_WALL = '#',
             EC_OBSTACLE = 'X',
@@ -25,8 +23,7 @@ class CField
             EC_TELEPORT = 'T'
         };
         
-        CField(): _width(0), _height(0)
-        {
+        CField(): _width(0), _height(0) {
             prio.push_back(EP_SOUTH);
             prio.push_back(EP_EAST);
             prio.push_back(EP_NORTH);
@@ -38,8 +35,7 @@ class CField
             inv_prio.push_back(EP_SOUTH);
         }
 
-        void read()
-        {
+        void read() {
             cin >> _height >> _width;
             cin.ignore();
 
