@@ -8,8 +8,9 @@
 #include <cmath>
 #include <math.h>
 typedef std::vector<double> values_t;
-double analyze(const std::vector<double>& values)
-{
+
+
+double analyze(const std::vector<double>& values) {
     double sum = std::accumulate(values.begin(), values.end(), 0.0);
     double average = sum/values.size();
     std::vector<bool> excluded(values.size(), false);
@@ -29,10 +30,8 @@ double analyze(const std::vector<double>& values)
     std::cerr << "range: " << range << std::endl;
     std::cerr << "range/average: " << range/average << std::endl;
     std::cerr << std::endl;
-    for (size_t i = 0; i < values.size(); i++)
-    {
-        if (average - range < values[i] && average + range > values[i])
-        {
+    for (size_t i = 0; i < values.size(); i++) {
+        if (average - range < values[i] && average + range > values[i]) {
             n++;
         }
     }
