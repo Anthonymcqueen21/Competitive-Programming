@@ -25,7 +25,7 @@ class Solution {
                 val <<= 1;
              }
         }
-		return binary.toString();
+	return binary.toString();
 	}
 
 	// convert binary String to unary String
@@ -55,7 +55,7 @@ class Solution {
     		}
     		res += " ";
     	}
-		return res.substring(0,res.length()-1);
+	return res.substring(0,res.length()-1);
 	}
 	
 	public static void main(String args[]) {
