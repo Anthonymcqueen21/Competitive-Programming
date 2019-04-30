@@ -11,7 +11,6 @@ class Solution {
     }
       return rows;
     }
-    
     public static String[] initAnswer(Scanner in, int size) {
         String[] answer = new String[size];
     for (int i = 0; i < size; i++) {
