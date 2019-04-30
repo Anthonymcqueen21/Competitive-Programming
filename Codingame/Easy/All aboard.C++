@@ -15,6 +15,7 @@ int main() {
         if (dist1 < dist2) {
             printf("%s\n",&enemy1);
         } else {
+            
             printf("%s\n",&enemy2);
         }
     }
