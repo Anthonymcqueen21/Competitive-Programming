@@ -21,7 +21,7 @@ class Solution {
 		}
 	}
 	public static void main(String args[]) {
-        Scanner in = new Scanner(System.in);
+            Scanner in = new Scanner(System.in);
         final double longitude = Double.parseDouble(in.next().replace(',', '.'));
         in.nextLine();
         final double latitude = Double.parseDouble(in.next().replace(',', '.'));
