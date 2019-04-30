@@ -5,7 +5,7 @@
 class CGraph {
 	// Define a CNode class
 class CNode
-    {
+             {
 	// weight, next level 1, and 2
         int m_weight;
         int m_next1;
