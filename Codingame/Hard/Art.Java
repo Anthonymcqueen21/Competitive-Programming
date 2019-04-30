@@ -37,7 +37,6 @@ class Solution {
         String[] rows = initRows(in,H);
         String[] answer = initAnswer(in, H);
         
-        
         for ( int i = 0;i < T.length(); i++) {
             int pos = ((int)(Character.toUpperCase(T.charAt(i))) - 65)*L;
             if(pos < 0 || pos > rows[0].length() ){
