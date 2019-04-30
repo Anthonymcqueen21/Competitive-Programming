@@ -32,4 +32,5 @@ class Solution {
             }
         }
     }
+    return parsed
 }
