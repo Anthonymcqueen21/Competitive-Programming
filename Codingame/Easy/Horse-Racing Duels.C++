@@ -1,10 +1,8 @@
-function sortHorses(a , b )
-{
+function sortHorses(a , b ) {
     return a-b;
 }
 const n = readline();
-if( n < 2 )
-{
+if( n < 2 ) {
     print (readline());
 }
 else
