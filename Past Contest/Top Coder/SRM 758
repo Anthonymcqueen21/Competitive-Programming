@@ -1,4 +1,0 @@
-class Solution(object):
-     def mat(self, name):
-        self.name
-        
