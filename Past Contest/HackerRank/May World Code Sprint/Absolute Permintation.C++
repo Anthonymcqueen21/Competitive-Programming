@@ -13,7 +13,8 @@ vector<int> solve() {
 			swap(a[j], a[j + k]);
 		}
 	}
-        return a;
+	
+  return a;
 }
 int main() {
 	int T;
