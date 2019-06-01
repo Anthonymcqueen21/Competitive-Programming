@@ -1,0 +1,1 @@
+print('Leet Code')
