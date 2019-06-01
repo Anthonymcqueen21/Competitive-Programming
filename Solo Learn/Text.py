@@ -1,0 +1,1 @@
+print('Solo Learn')
