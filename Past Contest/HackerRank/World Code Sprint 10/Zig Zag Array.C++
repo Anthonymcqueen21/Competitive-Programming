@@ -42,6 +42,7 @@ int main() {
     for(int a_i = 0; a_i < n; a_i++){
        cin >> a[a_i];
     }
+    
     // Return the minimum number of elements to delete to make the array zigzag
     int result = minimumDeletions(a);
     cout << result << endl;
