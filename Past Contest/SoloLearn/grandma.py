@@ -1,2 +1,0 @@
-class grandma():
-    def grandma
