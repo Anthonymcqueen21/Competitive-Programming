@@ -1,1 +1,0 @@
-print('Future World Champion')
