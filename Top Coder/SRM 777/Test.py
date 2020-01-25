@@ -1,1 +1,1 @@
-print('competition')
+print('upcoming competition')
