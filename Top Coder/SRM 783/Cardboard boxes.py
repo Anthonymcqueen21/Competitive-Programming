@@ -1,3 +1,5 @@
+# 1000 point problem
+
 class CardboardBoxes:
     """define the length width and height of the top and lower"""
     def topflap(self, S):
