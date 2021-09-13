@@ -1,1 +1,1 @@
-This is my competition journey towards a World Championship
+Not all bust most of my competitions when i competed i failed.
